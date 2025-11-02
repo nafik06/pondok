@@ -141,7 +141,7 @@ nav ul li:hover .dropdown {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
 }
 
 .container img {
@@ -150,14 +150,24 @@ nav ul li:hover .dropdown {
     height: auto;
 }
 
-@media (max-width:720px) {
+@media (max-width:790px) {
+    nav {
+        flex-wrap: wrap;
+        position: fixed;
+    
+    }
     nav ul {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .container {
         flex-direction: column;
+      
+    }
+    body {
+        max-width: 720px;
     }
 
     .container img {
@@ -169,7 +179,8 @@ nav ul li:hover .dropdown {
     }
 
     nav ul {
-        display: none;
+        display: noe;
+        flex-direction: column;
     }
 
      nav .iconlist {
@@ -177,7 +188,12 @@ nav ul li:hover .dropdown {
         align-items: center;
         font-size: 34px;
     }
-
+    nav ul.hiden {
+        display: none;
+    }
+    .isi {
+        padding-top: 7rem;
+    }
 }
 
 .iconlist {
@@ -197,4 +213,3 @@ footer {
 footer p {
     text-align: center;
 }
-
