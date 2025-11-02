@@ -162,7 +162,7 @@ nav ul li:hover .dropdown {
         width: 100%;
     }
     .logopp {
-        width :300px;
+        width :1px;
     }
 
     .container {
@@ -216,4 +216,5 @@ footer {
 footer p {
     text-align: center;
 }
+
 
