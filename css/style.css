@@ -141,7 +141,7 @@ nav ul li:hover .dropdown {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 25px;
 }
 
 .container img {
@@ -161,11 +161,11 @@ nav ul li:hover .dropdown {
     }
 
     .container img {
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .maulid1 {
-        max-width: 100%;
+        max-width: 90%;
     }
 
     nav ul {
@@ -197,3 +197,4 @@ footer {
 footer p {
     text-align: center;
 }
+
