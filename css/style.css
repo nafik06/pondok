@@ -1,55 +1,62 @@
-*, html {
+*,
+html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: white ;
+    background-color: white;
 }
+
 nav {
-    background-color:green;
+    background-color: green;
     display: flex;
     justify-content: space-between;
-    overflow: visible;
+    width: 100%;
 }
-nav ul  {
+
+nav ul {
     display: flex;
     align-items: center;
-    gap: 1rem; ;
+    gap: 1rem;
+    ;
     list-style: none;
 
-    
-   
+
+
 }
+
 .logopp {
     display: flex;
     align-items: center;
-    gap:10px ;
+    gap: 10px;
     font: optional;
     font-weight: 600;
     padding: 5PX 5PX;
 
-    
+
 }
+
 nav img {
     width: 100px;
-    padding-left: 5px ;
- 
+    padding-left: 5px;
+
 }
 
 nav ul li {
-position: relative
+    position: relative
 }
+
 nav ul li a {
     text-decoration: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     font-weight: 600;
     display: block;
     background-color: green;
     font-size: larger;
-    padding :10px;
+    padding: 10px;
     transition: all;
     transition-duration: 100ms;
     border-bottom: 5px solid rgba(0, 0, 0, 0);
@@ -57,25 +64,28 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  
+
     display: block;
     background-color: rgba(172, 255, 47, 0.674);
     border-bottom: 5px solid black;
     border-radius: 5px;
 }
+
 .dropdown {
     display: none;
-    position:absolute;
+    position: absolute;
     top: 100%;
     left: 0;
-  
+
 }
+
 nav ul li:hover .dropdown {
-    display:block;
+    display: block;
     position: absolute;
     left: 0;
-   
+
 }
+
 .dropdown li {
     text-align: center;
     left: 0;
@@ -87,17 +97,19 @@ nav ul li:hover .dropdown {
     text-align: center;
     padding-top: 10px;
 }
-.BERITA h2{
-    padding :10px ;
-    display:inline-block;
-    background-color: green ;
+
+.BERITA h2 {
+    padding: 10px;
+    display: inline-block;
+    background-color: green;
     border-radius: 10px;
     color: rgb(255, 255, 255);
 }
+
 .BERITA h2:hover {
-background-color: rgba(172, 255, 47, 0.674);
-border-radius: 10px;
-color: black;
+    background-color: rgba(172, 255, 47, 0.674);
+    border-radius: 10px;
+    color: black;
 }
 
 
@@ -105,15 +117,17 @@ color: black;
     display: block;
     margin: 0 auto;
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
     padding: 7px;
     background-color: yellowgreen;
 }
+
 .maulidtext {
     text-align: center;
 }
+
 .brosur {
     display: block;
     margin: 0 auto;
@@ -129,26 +143,48 @@ color: black;
     justify-content: center;
     gap: 10px;
 }
+
 .container img {
     width: 100%;
-   max-width: 350px;
-    height: auto; 
+    max-width: 350px;
+    height: auto;
 }
+
 @media (max-width:720px) {
     nav ul {
         flex-direction: column;
         align-items: center;
     }
+
     .container {
         flex-direction: column;
     }
+
     .container img {
         max-width: 100%;
     }
+
     .maulid1 {
         max-width: 100%;
     }
+
+    nav ul {
+        display: none;
+    }
+
+     nav .iconlist {
+        display: flex;
+        align-items: center;
+        font-size: 34px;
+    }
+
 }
+
+.iconlist {
+    font-size: 24px;
+    display: none;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -157,7 +193,7 @@ footer {
     color: white;
     padding: 30px;
 }
+
 footer p {
     text-align: center;
 }
-
