@@ -162,10 +162,10 @@ nav ul li:hover .dropdown {
         width: 100%;
     }
     .logopp img {
-     width: 55px;
+     width: 40px;
     }
     .logopp h4 {
-        font-size: 0.8rem
+        font-size: 0.7rem
 
     }
 
@@ -220,3 +220,4 @@ footer {
 footer p {
     text-align: center;
 }
+
