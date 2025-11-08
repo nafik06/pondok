@@ -1,0 +1,209 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    ;
+    list-style: none;
+
+
+
+}
+
+.logopp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font: optional;
+    font-weight: 500;
+    padding: 5PX 5PX;
+
+
+}
+
+nav img {
+    width: 100px;
+    padding-left: 5px;
+
+}
+
+nav ul li {
+    position: relative
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 600;
+    display: block;
+    background-color: green;
+    font-size: larger;
+    padding: 10px;
+    transition: all;
+    transition-duration: 100ms;
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+
+}
+
+nav ul li a:hover {
+
+    display: block;
+    background-color: rgba(172, 255, 47, 0.674);
+    border-bottom: 5px solid black;
+    border-radius: 5px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    left: 0;
+
+}
+
+.dropdown li {
+    text-align: center;
+    left: 0;
+    margin-left: 0;
+}
+
+/* SECTION 1 */
+
+
+
+
+
+
+
+.maulid1 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    padding: 7px;
+    background-color: yellowgreen;
+}
+
+.textket {
+    text-align: center;
+}
+
+.brosur {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    padding: 7px;
+    background-color: yellowgreen;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+@media (max-width:790px) {
+    nav {
+        flex-wrap: wrap;
+        /* position: fixed; */
+    
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .logopp img {
+     width: 60px;
+    }
+    .logopp h4 {
+        font-size: 1rem
+
+    }
+
+    .container {
+        flex-direction: column;
+      
+    }
+    body {
+        max-width: 720px;
+    }
+
+    .container img {
+        max-width: 90%;
+    }
+
+    .maulid1 {
+        max-width: 90%;
+    }
+
+    nav ul {
+        display: noe;
+        flex-direction: column;
+    }
+
+     nav .iconlist {
+        display: flex;
+        align-items: center;
+        font-size: 34px;
+    }
+    nav ul.hiden {
+        display: none;
+    }
+    .isi {
+        padding-top: 10px;
+    }
+}
+
+.iconlist {
+    font-size: 24px;
+    display: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(61, 58, 58);
+    color: white;
+    padding: 30px;
+}
+
+footer p {
+    text-align: center;
+}
