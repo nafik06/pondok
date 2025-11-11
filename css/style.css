@@ -37,6 +37,10 @@ nav ul {
 }
 .logopp h3 {
     color: white;
+    font-size: 17px;
+}
+.logopp .logo {
+    width: 70px;
 }
 nav img {
     width: 100px;
