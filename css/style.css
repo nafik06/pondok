@@ -34,10 +34,10 @@ nav ul {
     font: optional;
     font-weight: 500;
     padding: 5PX 5PX;
-    text-color: white;
 }
 .logopp h3 {
     color: white;
+}
 nav img {
     width: 100px;
     padding-left: 5px;
@@ -219,5 +219,4 @@ footer {
 
 footer p {
     text-align: center;
-
 }
