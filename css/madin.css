@@ -215,6 +215,11 @@ nav ul li:hover .dropdown {
     .isi {
         padding-top: 10px;
     }
+    form {
+        max-width: 90%;
+        width: 300px;
+    }
+    
 }
 /*FORM*/
 .form-popup {
@@ -223,9 +228,8 @@ nav ul li:hover .dropdown {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-   
     z-index: 9;
-    background-color: aqua;
+    background-color:green;
     padding: 7px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -234,14 +238,37 @@ nav ul li:hover .dropdown {
     max-width: 300px;
     border-radius: 10px;
     padding: 10px;
-    background-color: white;
+    background-color: rgb(116, 224, 104);
 }
 .form-container input{
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
     border: none;
-    background: white;
+    background: greenyellow;
+    border-radius: 5px;
+    border: 2px solid black
+}
+.form-popup h2 {
+    text-align: center;
+}
+.form-popup button {
+  background-color:green ;
+  width: 80px;
+  padding: 7px;
+  border-radius: 4px;
+   border: 1.5px solid black;
+}
+.form-popup button:hover {
+    display: block;
+    background-color: darkgreen;
+    color: white;
+    border: 1.5px solid black;
+}
+.warpbtn {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 /* FORM */
 
