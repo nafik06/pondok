@@ -167,7 +167,7 @@ nav ul li:hover .dropdown {
 @media (max-width:790px) {
     nav {
         flex-wrap: wrap;
-        /* position: fixed; */
+        position: fixed;
     
     }
     nav ul {
